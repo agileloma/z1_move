@@ -2,16 +2,13 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" 
   schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>z1_move</name>
+  <name>z1_sim</name>
   <version>0.0.0</version>
-  <description>The metapackage contains the planner, controller, simulation interface, 
-    and hardware interface for the Unitree Z1 arm. </description>
+  <description>Simulation interface for the Unitree Z1 arm.</description>
   <maintainer email="junli@hit.edu.cn">Li Jun</maintainer>
-  <license>BSD</license>
+  <license>BSD3</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-
-  <exec_depend>z1_sim</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>

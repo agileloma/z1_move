@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(z1_move)
+project(z1_sim)
 
 # Default to C++17
 if(NOT CMAKE_CXX_STANDARD)
