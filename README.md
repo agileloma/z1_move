@@ -8,12 +8,12 @@ and hardware interface for the Unitree Z1 arm.
 1. ROS2
 https://ros.org
 
-'''
-sudo apt install ros-<distro>-xacro
-sudo apt install ros-<distro>-joint-state-publisher
-sudo apt install ros-<distro>-joint-state-publisher-gui
-sudo apt install ros-<distro>-robot-state-publisher
-'''
+```
+sudo apt install ros-$ROS_DISTRO-xacro
+sudo apt install ros-$ROS_DISTRO-joint-state-publisher
+sudo apt install ros-$ROS_DISTRO-joint-state-publisher-gui
+sudo apt install ros-$ROS_DISTRO-robot-state-publisher
+```
 
 ### License and Copyrights
 Copyright (c) 2024, Harbin Institute of Technology.
